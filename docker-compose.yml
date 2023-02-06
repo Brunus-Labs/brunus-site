@@ -1,0 +1,16 @@
+version: "3"
+services:
+  astro:
+    build:
+      context: .
+      target: dev
+    volumes:
+      - ./src:/app/src
+      - ./public:/app/public
+    healthcheck:
+      test: curl --fail -s http://localhost:3000/ || exit 1
+      interval: 10s
+      timeout: 10s
+      retries: 10
+    ports:
+      - "80:3000"
