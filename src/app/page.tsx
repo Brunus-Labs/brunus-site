@@ -36,23 +36,23 @@ export default function Home() {
       });
     }, app);
 
-    return () => ctx.revert(); // cleanup
+    return () => ctx.revert();
   }, []);
 
   return (
-    <main ref={app} className="overflow-hidden ">
+    <main ref={app} className="h-full">
       <div
         id="bg-block"
-        className="absolute bg-emerald-600 w-full h-[calc(50vh_-_4rem)] lg:h-[calc(50vh_-_8rem)] z-20"
+        className="absolute bg-emerald-600 w-full h-[calc(50vh_-_4rem)] top-0 lg:h-[calc(50vh_-_8rem)] z-20"
       />
-      <div className="text-[13vw] font-mono flex justify-center h-screen overflow-hidden items-center">
+      <div className="text-[13vw] font-mono flex justify-center h-screen top-0 items-center">
         <div
           id="bg"
-          className="absolute right-0 w-full h-full bg-emerald-600 ease-in"
+          className="absolute right-0 w-full h-full bg-emerald-600 ease-in top-0"
         />
         <div
           id="bg2"
-          className="absolute w-full h-full bg-bg ease-in -translate-x-full"
+          className="absolute w-full h-full bg-bg ease-in -translate-x-full top-0"
         />
         <div className="relative">
           <span className="flex">

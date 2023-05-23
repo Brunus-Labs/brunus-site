@@ -17,6 +17,11 @@ const roboto_mono = Roboto_Mono({
 export const metadata = {
   title: "Brunus Labs",
   description: "A software consulting company",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+  },
 };
 
 export default function RootLayout({
@@ -30,7 +35,8 @@ export default function RootLayout({
         className={clsx(
           inter.variable,
           roboto_mono.variable,
-          "overflow-hidden"
+          "min-h-screen",
+          "relative"
         )}
       >
         {children}
