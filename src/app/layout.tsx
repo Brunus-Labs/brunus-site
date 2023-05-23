@@ -1,7 +1,18 @@
-import { Inter } from "next/font/google";
+import clsx from "clsx";
+import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const roboto_mono = Roboto_Mono({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-roboto-mono",
+});
 
 export const metadata = {
   title: "Brunus Labs",
@@ -15,7 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={clsx(inter.variable, roboto_mono.variable)}>
+        {children}
+      </body>
     </html>
   );
 }
