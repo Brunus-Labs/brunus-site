@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1024" height="1024" viewBox="0 0 1024 1024" xml:space="preserve">
+<desc>Created with Fabric.js 2.3.6</desc>
+<defs>
+</defs>
+<path id="icon-1" d="M 0 0 h 50 v 50 H 0 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: evenodd; opacity: 1;" transform="translate(512 512) scale(16.156863 16.156863) translate(-25, -25) " stroke-linecap="round" />
+<g id="icon-2" transform="translate(520.146259 529.850727) scale(8.860215 8.860215)" style="">
+	<path d="M 13.1848 13.2706 C 10.4451 16.0103 6.16427 16.0103 3.42455 13.2706 C 0.68482 10.5308 0.68482 6.25003 3.42455 3.5103 C 6.16427 0.770574 10.4451 0.770574 13.1848 3.5103 C 15.9245 6.25003 15.9245 10.5308 13.1848 13.2706 Z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform="translate(-16.695336 -16.60956) translate(-8.30466375, -8.390440250000001) " stroke-linecap="round" />
+	<path d="M 35.4452 35.5308 C 42.2945 28.6815 42.2945 21.3185 35.4452 14.4692 C 32.1917 11.2158 32.1917 5.73631 35.4452 2.48288 C 38.6986 -0.77054 44.178 -0.77054 47.4315 2.48288 C 50.6849 5.73631 50.6849 11.2158 47.4315 14.4692 C 40.5821 21.3185 40.5821 28.6815 47.4315 35.5308 C 50.6849 38.7843 50.6849 44.2637 47.4315 47.5171 C 44.178 50.7706 38.6986 50.7706 35.4452 47.5171 C 28.5958 40.6678 21.2328 40.6678 14.3835 47.5171 C 11.1301 50.7706 5.65065 50.7706 2.39722 47.5171 C -0.856203 44.2637 -0.856203 38.7843 2.39722 35.5308 C 5.65065 32.2774 11.1301 32.2774 14.3835 35.5308 C 21.2328 42.3801 28.5958 42.3801 35.4452 35.5308 Z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform="translate(-0.085649 0.00002) translate(-24.914351375, -25.000020000000006) " stroke-linecap="round" />
+</g>
+</svg>
