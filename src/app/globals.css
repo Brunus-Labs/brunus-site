@@ -13,8 +13,3 @@
     --background: #1e1e1e;
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: var(--background);
-}

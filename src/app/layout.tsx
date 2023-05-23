@@ -26,7 +26,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={clsx(inter.variable, roboto_mono.variable)}>
+      <body
+        className={clsx(
+          inter.variable,
+          roboto_mono.variable,
+          "overflow-hidden"
+        )}
+      >
         {children}
       </body>
     </html>
